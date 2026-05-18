@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos PEF 2026 - Industrias Vago de México</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Montserrat:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* CSS Base - Estilo Corporativo */
+        * { box-sizing: border-box; }
+        p { margin: 0; margin-bottom: 15px; }
+        body { background-color: #cbd5e1; display: grid; gap: 40px; grid-template-columns: 1fr; margin: 0; padding: 40px 0; place-items: center; }
+
+        .slide-container {
+            background-color: #ffffff;
+            border-radius: 4px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            font-family: 'Lato', sans-serif;
+            height: 720px;
+            overflow: hidden;
+            padding: 60px 80px;
+            position: relative;
+            width: 1280px;
+        }
+
+        .slide-container::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #002D72 0%, #005A9C 100%);
+        }
+
+        h1, h2, h3 { color: #002D72; font-family: 'Montserrat', sans-serif; font-weight: 700; margin: 0; }
+        .slide-title { font-size: 38px; border-bottom: 2px solid #e2e8f0; padding-bottom: 15px; margin-bottom: 40px; width: 100%; text-transform: uppercase; letter-spacing: 1px; }
+
+        .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+        .info-card { background: #f8fafc; padding: 30px; border-radius: 8px; border-left: 5px solid #005A9C; height: 100%; }
+        .info-card h3 { font-size: 20px; margin-bottom: 15px; color: #005A9C; display: flex; align-items: center; gap: 10px; }
+        
+        ul { padding-left: 20px; margin: 0; }
+        li { margin-bottom: 10px; font-size: 18px; color: #334155; }
+        
+        .tag { display: inline-block; background: #e0f2fe; color: #0369a1; padding: 4px 12px; border-radius: 15px; font-size: 14px; font-weight: 700; margin-right: 5px; margin-top: 5px; }
+        
+        .hero-slide { text-align: center; justify-content: center; background: #002D72; color: white; }
+        .hero-slide h1 { color: white; font-size: 64px; margin-bottom: 10px; }
+        .hero-slide p { color: #93c5fd; font-size: 24px; }
+        .hero-slide .logo-placeholder { font-weight: 700; font-size: 28px; margin-bottom: 40px; letter-spacing: 4px; }
+
+    </style>
+</head>
+<body>
+
+    <!-- Portada -->
+    <div class="slide-container hero-slide">
+        <div class="logo-placeholder">INDUSTRIAS VAGO DE MÉXICO</div>
+        <h1>Propuestas PEF 2026</h1>
+        <p>Escuela de Ingenierías y Tecnologías | Ciclo Otoño</p>
+    </div>
+
+    <!-- Proyecto 1 -->
+    <div class="slide-container">
+        <h2 class="slide-title">Proyecto 1: Manuales y Procesos ISO</h2>
+        <div class="content-grid">
+            <div class="info-card">
+                <h3><i class="fa-solid fa-bullseye"></i> Objetivo y Alcance</h3>
+                <p>Desarrollar y estandarizar la documentación técnica e integrar procedimientos de mantenimiento preventivo y calidad ISO para la línea de producción de resortes.</p>
+                <p><strong>Duración:</strong> Agosto - Noviembre 2026.</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fa-solid fa-list-check"></i> Actividades Principales</h3>
+                <ul>
+                    <li>Levantamiento técnico de maquinaria en planta.</li>
+                    <li>Creación de diagramas de flujo y manuales.</li>
+                    <li>Alineación de procesos a normativa ISO.</li>
+                    <li>Diseño de plan de mantenimiento preventivo.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 40px;">
+            <h3><i class="fa-solid fa-graduation-cap"></i> Carreras que Aplican:</h3>
+            <span class="tag">Ingeniería Industrial y de Sistemas</span>
+            <span class="tag">Ingeniería Mecánica Administrativa</span>
+            <span class="tag">Ingeniería en Gestión Empresarial</span>
+        </div>
+    </div>
+
+    <!-- Proyecto 2 -->
+    <div class="slide-container">
+        <h2 class="slide-title">Proyecto 2: Costos Reales y Lotes Óptimos</h2>
+        <div class="content-grid">
+            <div class="info-card">
+                <h3><i class="fa-solid fa-calculator"></i> Objetivo y Alcance</h3>
+                <p>Establecer un modelo de costeo real por producto y un sistema de gestión de inventarios (EOQ, Máximos y Mínimos) para optimizar la cadena de suministro.</p>
+                <p><strong>Duración:</strong> Agosto - Noviembre 2026.</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fa-solid fa-list-check"></i> Actividades Principales</h3>
+                <ul>
+                    <li>Diagnóstico de costos operativos actuales.</li>
+                    <li>Construcción de herramienta de costeo real.</li>
+                    <li>Cálculo de niveles de inventario óptimo (SKUs).</li>
+                    <li>Definición de políticas de stock de seguridad.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 40px;">
+            <h3><i class="fa-solid fa-graduation-cap"></i> Carreras que Aplican:</h3>
+            <span class="tag">Ingeniería Industrial y de Sistemas</span>
+            <span class="tag">Ingeniería en Gestión Empresarial</span>
+            <span class="tag">Ingeniería Mecánica Administrativa</span>
+        </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="slide-container">
+        <h2 class="slide-title">Proyecto 3: IA y Automatización Comercial</h2>
+        <div class="content-grid">
+            <div class="info-card">
+                <h3><i class="fa-solid fa-robot"></i> Objetivo y Alcance</h3>
+                <p>Implementar un sistema de automatización comercial con IA para prospección multicanal, con miras a la expansión en EUA y Latinoamérica.</p>
+                <p><strong>Duración:</strong> Agosto - Noviembre 2026 (con potencial de continuación).</p>
+            </div>
+            <div class="info-card">
+                <h3><i class="fa-solid fa-list-check"></i> Actividades Principales</h3>
+                <ul>
+                    <li>Desarrollo de flujos de IA (Email, WhatsApp, Voz).</li>
+                    <li>Integración de APIs y modelos de lenguaje (LLMs).</li>
+                    <li>Ejecución de piloto comercial nacional.</li>
+                    <li>Roadmap de escalabilidad internacional.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-top: 40px;">
+            <h3><i class="fa-solid fa-graduation-cap"></i> Carreras que Aplican:</h3>
+            <span class="tag">Ingeniería en Tecnologías Computacionales</span>
+            <span class="tag">Ingeniería en Robótica y Sistemas Inteligentes</span>
+            <span class="tag">Ingeniería en Gestión Empresarial</span>
+        </div>
+    </div>
+
+</body></html>
